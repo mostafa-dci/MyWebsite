@@ -48,6 +48,9 @@ Array.from(elements).forEach(item => {
 ```
 
 ## Some Important Methods:
+- [Create HTML Element in Javascript](#create-html-element-in-javascript).
+- [Append HTML Element in Javascript](#append-html-element-in-javascript).
+- [Remove HTML Element in Javascript](#remove-html-element-in-javascript).
 - [Get HTML Element Attributes in Javascript](#get-html-element-attributes-in-javascript).
 - [Set HTML Element Attributes in Javascript](#set-html-element-attributes-in-javascript).
 - [Remove HTML Element Attributes in Javascript](#remove-html-element-attributes-in-javascript).
@@ -83,6 +86,26 @@ Array.from(elements).forEach(item => {
 - [Get HTML Element Position Y in Javascript](#get-html-element-position-y-in-javascript).
 - [Get HTML Element Position Center in Javascript](#get-html-element-position-center-in-javascript).
 
+
+## Create HTML Element in Javascript:
+```javascript
+// Create HTML Element
+let element = document.createElement("ELEMENT_TAG");
+```
+
+## Append HTML Element in Javascript:
+```javascript
+// Append HTML Element
+let element = document.createElement("ELEMENT_TAG");
+document.body.appendChild(element);
+```
+
+## Remove HTML Element in Javascript:
+```javascript
+// Remove HTML Element
+let element = document.getElementById("ID_FOR_ELEMENT");
+element.remove();
+```
 
 ## Get HTML Element Attributes in Javascript:
 ```javascript
